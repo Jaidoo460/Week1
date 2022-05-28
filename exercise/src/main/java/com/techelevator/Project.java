@@ -10,7 +10,7 @@ public class Project {
     public String dueDate;
     private List<Employee> teamMembers = new ArrayList<>();
 
-    public Project(String name, String description, String startDate, String dueDate, List<Employee> teamMembers) {
+    public Project(String name, String description, String startDate, String dueDate) {
         this.name = name;
         this.description = description;
         this.startDate = startDate;
