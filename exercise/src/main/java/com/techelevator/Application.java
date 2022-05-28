@@ -14,6 +14,7 @@ public class Application {
     private void run() {
         // create some departments
         createDepartments();
+        departments.add(marketing);
 
         // print each department by name
         printDepartments();
